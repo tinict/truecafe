@@ -149,6 +149,27 @@
     border-radius: 8px;
 }
 
+.title-header{
+    text-align: center;
+    top: 50px;
+    width: 50%;
+    height: 60px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 25%;
+}
+
+.title-header #char-1{
+    color: #ff0000;
+    line-height: 60px;
+}
+
+.title-header #char-2{
+    color: #8a2be2;
+    line-height: 60px;
+}
+
 .header-content .box-menu .box-item{
     padding: 10px 0 15px 0;
 }

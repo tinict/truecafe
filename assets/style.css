@@ -119,11 +119,11 @@
 
 .footer .container ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .footer .container a{
-    font-size: 18px;
+    font-size: 24px;
     line-height: 44px;
 }
 

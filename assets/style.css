@@ -109,7 +109,7 @@
     right: 0;
     left: 0;
     width: 100%;
-    height: 44px;
+    height: 48px;
     background-color: #000000CC;
 }
 
@@ -123,8 +123,49 @@
 }
 
 .footer .container a{
-    font-size: 24px;
-    line-height: 44px;
+    font-size: 20px;
+    line-height: 48px;
+}
+
+/* css content */
+/* css header content */
+.content{
+    width: 100%;
+}
+.header-content{
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/coffee-beans-top-view-white-background-space-text_176474-5028.webp);
+}
+
+/* css box menu */
+.header-content .box-menu{
+    position: absolute;
+    top: 120px;
+    left: 25%;
+    width: 50%;
+    height: 60px;
+    background-color: #f5f5f7;
+    border-radius: 8px;
+}
+
+.header-content .box-menu .box-item{
+    padding: 10px 0 15px 0;
+}
+
+.header-content .box-menu{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.header-content .box-menu a{
+    font-size: 20px;
+}
+
+.header-content .box-menu h3{
+    font-weight: 300;
+    font-size: 16px;
 }
 
 

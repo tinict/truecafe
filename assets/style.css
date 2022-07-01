@@ -292,6 +292,7 @@
     padding: 0 13px 0 13px;
     line-height: 40px;
     font-size: 14px;
+    text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -301,12 +302,49 @@
 }
 
 .sp-true-coffee .container{
+    padding: 13px;
     width: 100%;
     display: flex;
     overflow-x: scroll;
 }
 
 .sp-true-coffee .container .box{
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 5px;
+    margin: 16px;
     text-align: center;
+}
+
+.sp-true-coffee .container .box img,
+.sp-true-coffee .container .box p,
+.sp-true-coffee .container .box h3{
+    padding: 8px;
+}
+
+.sp-true-coffee .container .box img{
+    padding: 5px;
+    width: 220px;
+    height: 150px;
+}
+
+.sp-true-coffee .container .box p{
+    font-size: 8px;
+    padding: 8px;
+}
+
+.sp-true-coffee .container .box .btn-view{
+    width: 100px;
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid #BFBFBF;
+    margin-bottom: 10px;
+    margin-left: 28%;
+}
+
+.sp-true-coffee .container .box .btn-view a{
+    line-height: 24px;
 }
 

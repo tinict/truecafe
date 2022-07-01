@@ -302,7 +302,7 @@
 }
 
 .sp-true-coffee .container{
-    padding: 13px;
+    padding: 13px 13px 13px 0;
     width: 100%;
     display: flex;
     overflow-x: scroll;
@@ -316,6 +316,10 @@
     border-radius: 5px;
     margin: 0 16px 0 16px;
     text-align: center;
+}
+
+.sp-true-coffee .container #first-box{
+    padding-left: 0 !important;
 }
 
 .sp-true-coffee .container .box img,

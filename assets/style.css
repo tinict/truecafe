@@ -12,9 +12,22 @@
 /* CSS Menu */
 
 .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     width: 100%;
     height: 72px;
     background-color: #000000CC;
+    z-index: 1;
+}
+
+.content:before{
+    position: relative;
+    content: "";
+    display: block;
+    height: 72px;
+    width: 100%;
 }
 
 .header .container{
@@ -98,6 +111,13 @@
     .left-menu a img,
     .header .container{
         height: 44px;
+    }
+    .content:before{
+        position: relative;
+        content: "";
+        display: block;
+        height: 44px;
+        width: 100%;
     }
 }
 
@@ -188,5 +208,42 @@
     font-size: 12px;
 }
 
+/* css menu contents*/
 
+.menu-contents{
+    width: 100%;
+    padding: 15px;
+}
 
+.menu-contents .container .title-menu{
+    width: 100%;
+    height: 40px;
+}
+
+/* title menu contents */
+.menu-contents .container .title-menu h3{
+    line-height: 40px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* css menu contens */
+.menu-contents ul{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.menu-contents ul h3{
+    font-weight: 300;
+    font-size: 12px;
+    padding: 8px 0 8px 0;
+}
+
+.menu-contents ul i{
+    font-size: 20px;
+}
+
+.menu-contents ul li{
+    padding: 8px;
+}
